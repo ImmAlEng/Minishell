@@ -35,13 +35,13 @@ CFLAGS	=	-Wall -Werror -Wextra -g
 all :		$(NAME)
 
 $(NAME) :	
-			(cd libft && make)
-			cp libft/libft.a libft.a
+			(cd ../libft && make)
+			cp ../libft/libft.a libft.a
 			$(CC) $(CFLAGS) -c $(SRCS)
 			$(CC) $(CFLAGS) -g -o $(NAME) $(OBJS) libft.a -lreadline
 
 clean :
-			(cd libft && make fclean)
+			(cd ../libft && make fclean)
 			rm -f $(OBJS)
 			rm -f libft.a
 

@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   minishell.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iengels < iengels@student.42vienna.com>    +#+  +:+       +#+        */
+/*   By: iengels <iengels@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 22:04:12 by iengels           #+#    #+#             */
-/*   Updated: 2023/04/28 22:13:20 by iengels          ###   ########.fr       */
+/*   Updated: 2023/11/21 01:57:48 by iengels          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MINISHELL_H
 # define MINISHELL_H
 
-# include "libft/libft.h"
+# include "../libft/libft.h"
 # include <dirent.h>
 # include <fcntl.h>
 # include <limits.h>
